@@ -58,6 +58,7 @@ public class LogProcessing {
 			lTimesTampDisConnect = lTimesTampConnect1;
 			lDuration = lTime1MilSec - lTime2MilSec;
 		}
+		
 		return new Session(lIp, lTimesTampConnect, lTimesTampDisConnect,
 				lDuration, lListUrl, lListRequete, lNumberOfPage);
 
